@@ -1,7 +1,7 @@
 "use client";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "56912345678";
+  const phoneNumber = "56966091092";
   const message = "Hola, me gustaría agendar una visita técnica para revisar mi techo.";
   const whatsappUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 
