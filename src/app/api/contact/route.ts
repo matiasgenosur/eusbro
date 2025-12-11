@@ -45,7 +45,7 @@ export async function POST(request: Request) {
 
     // Enviar email con Resend
     const { error: emailError } = await resend.emails.send({
-      from: "EUSBRO <contacto@eusbro.cl>",
+      from: "EUSBRO <andres.eusquiza@eusbro.cl>",
       to: ["a.eusquiza@gmail.com"],
       subject: `Nueva solicitud - ${projectTypeLabels[projectType] || projectType}`,
       html: `
