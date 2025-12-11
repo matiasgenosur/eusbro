@@ -18,14 +18,14 @@ const projects = [
     title: "Edificio Corporativo",
     category: "comercial" as const,
     description: "Impermeabilización de terraza y techumbre",
-    image: "/projects/comercial-1.jpg",
+    image: "/projects/edificio-corporativo.jpg",
   },
   {
     id: 3,
     title: "Galpón Industrial",
     category: "industrial" as const,
     description: "Construcción de techo nuevo de 2000m²",
-    image: "/projects/industrial-1.jpg",
+    image: "/projects/galpon-industrial.jpg",
   },
   {
     id: 4,
