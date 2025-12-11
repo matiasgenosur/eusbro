@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="#53565A"/>
+  <!-- Roof shape -->
+  <path d="M16 6L4 16h4v10h16V16h4L16 6z" fill="#FCC30E"/>
+  <!-- Window/door detail -->
+  <rect x="13" y="18" width="6" height="8" fill="#53565A"/>
+</svg>

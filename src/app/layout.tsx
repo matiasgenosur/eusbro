@@ -28,6 +28,9 @@ export const metadata: Metadata = {
     "mantención de techos",
     "Chile",
   ],
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     title: "EUSBRO | Expertos en Techos de Alta Durabilidad",
     description:
