@@ -48,7 +48,7 @@ export default function Header() {
               href="https://wa.me/56966091092?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20visita%20t%C3%A9cnica."
               target="_blank"
               rel="noopener noreferrer"
-              className="btn-primary inline-flex items-center gap-2 bg-[#25D366] hover:bg-[#128C7E]"
+              className="inline-flex items-center gap-2 px-5 py-3 rounded-lg font-semibold text-white bg-[#25D366] hover:bg-[#128C7E] transition-all"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -121,7 +121,7 @@ export default function Header() {
                 href="https://wa.me/56966091092?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20visita%20t%C3%A9cnica."
                 target="_blank"
                 rel="noopener noreferrer"
-                className="btn-primary text-center mt-4 bg-[#25D366] hover:bg-[#128C7E]"
+                className="block text-center mt-4 px-5 py-3 rounded-lg font-semibold text-white bg-[#25D366] hover:bg-[#128C7E] transition-all"
               >
                 WhatsApp
               </a>

@@ -112,7 +112,7 @@ export default function Hero() {
             href="https://wa.me/56966091092?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20visita%20t%C3%A9cnica%20para%20revisar%20mi%20techo."
             target="_blank"
             rel="noopener noreferrer"
-            className="btn-primary inline-flex items-center justify-center gap-2 text-lg px-8 py-4 bg-[#25D366] hover:bg-[#128C7E]"
+            className="inline-flex items-center justify-center gap-2 text-lg px-8 py-4 rounded-lg font-semibold text-white bg-[#25D366] hover:bg-[#128C7E] transition-all hover:-translate-y-0.5 hover:shadow-lg"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
