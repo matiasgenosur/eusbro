@@ -36,11 +36,26 @@ export default function ContactForm() {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1000));
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
 
-    setIsSubmitting(false);
-    setSubmitted(true);
+      if (response.ok) {
+        setSubmitted(true);
+      } else {
+        alert("Error al enviar el mensaje. Por favor intenta de nuevo.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      alert("Error al enviar el mensaje. Por favor intenta de nuevo.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   if (submitted) {
