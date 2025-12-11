@@ -32,21 +32,21 @@ const projects = [
     title: "Villa en Lo Barnechea",
     category: "residencial" as const,
     description: "Mantención preventiva y pintura",
-    image: "/projects/residencial-2.jpg",
+    image: "/projects/villa-lo-barnechea.jpg",
   },
   {
     id: 5,
     title: "Centro Comercial",
     category: "comercial" as const,
     description: "Reparación de goteras múltiples",
-    image: "/projects/comercial-2.jpg",
+    image: "/projects/centro-comercial.jpg",
   },
   {
     id: 6,
     title: "Bodega Logística",
     category: "industrial" as const,
     description: "Refuerzo estructural y nuevo revestimiento",
-    image: "/projects/industrial-2.jpg",
+    image: "/projects/bodega-logistica.jpg",
   },
 ];
 
