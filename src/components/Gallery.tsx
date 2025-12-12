@@ -29,7 +29,7 @@ const projects = [
   },
   {
     id: 4,
-    title: "Villa en Lo Barnechea",
+    title: "Casa en Lo Barnechea",
     category: "residencial" as const,
     description: "Mantención preventiva y pintura",
     image: "/projects/villa-lo-barnechea.jpg",
